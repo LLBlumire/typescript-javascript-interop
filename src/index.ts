@@ -2,7 +2,7 @@ import _A from "./A";
 import _B from "./B";
 import _C from "./C";
 
-module LettersLibrary {
+export namespace LettersLibrary {
     export const A = _A;
     export type A = _A;
     export const B = _B;

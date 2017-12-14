@@ -1,3 +1,4 @@
+var LettersLibrary =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -78,7 +79,7 @@ var LettersLibrary;
     LettersLibrary.A = A_1.default;
     LettersLibrary.B = B_1.default;
     LettersLibrary.C = C_1.default;
-})(LettersLibrary || (LettersLibrary = {}));
+})(LettersLibrary = exports.LettersLibrary || (exports.LettersLibrary = {}));
 
 
 /***/ }),
@@ -130,4 +131,4 @@ exports.default = C;
 
 
 /***/ })
-/******/ ]);
+/******/ ])["LettersLibrary"];

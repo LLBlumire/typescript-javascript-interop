@@ -1,7 +1,10 @@
 module.exports = {
     entry: './src/index.ts',
     output: {
-        filename: './dist/dist.js'
+        filename: './dist/dist.js',
+        libraryTarget: 'var',
+        library: 'LettersLibrary',
+        libraryExport: 'LettersLibrary'
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js']
